@@ -16,7 +16,7 @@ The script requires the following arguments to be passed:
 --output: path to the output file to write the list of alive subdomains
 --timeout: (optional) timeout for the response in seconds (default: 5)
 Example usage:
-`python update_subdomains.py `--subs` subs.txt --scope scope.json --output alive_subs.txt --timeout 10`
+`python update_subdomains.py --subs subs.txt --scope scope.json --output alive_subs.txt --timeout 10`
 ## Inputs
 ## Subdomains File
 The --subs argument is used to specify the path to a file containing a list of subdomains to check. Each subdomain should be on a separate line. For example:
